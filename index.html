@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Главная страница</title>
+    {% include 'templates/head.html' %}
+</head>
+<body>
+
+<div class="wrapper-for-modal" id="example">
+    <div class="shadow-wrapper" id="shadow">
+        <div class="main">
+            <section id="home">
+                {% include 'templates/header.html' %}
+            </section>
+            <section id="about" class="about">
+                {% include 'templates/about.html' %}
+
+            </section>
+
+            <section id="service" class="service bg-primary">
+                {% include 'templates/service.html' %}
+            </section>
+
+            <section id="about-text">
+                {% include 'templates/about-text.html' %}
+            </section>
+
+                     <section id="contacs">
+                {% include 'templates/footer.html' %}
+            </section>
+        </div>
+
+    </div>
+</div>
+</body>
+
+</html>

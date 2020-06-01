@@ -1,0 +1,198 @@
+@font-face {
+    font-family: "ar";
+    src: url("/web/20200327075850im_/http://uzb.kz/templates/scorp/fonts/arialreg.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "ab";
+    src: url("/web/20200327075850im_/http://uzb.kz/templates/scorp/fonts/arialbold.ttf") format("truetype");
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /*font-family: "ar";*/
+    line-height: 26px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+a {
+    color: inherit;
+}
+
+.contain{
+    flex-grow:1;
+}
+
+footer#footer{
+    flex-shrink:0;
+}
+
+.responsive {
+    width: 100%;
+}
+
+.jr_component {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.jr_component .jr_full {
+    float: left;
+    width: 100%;
+}
+
+.jr_component .jr_middle {
+    float: left;
+    width: 70%;
+}
+
+.jr_component .jr_small {
+    float: left;
+    width: 30%;
+}
+
+.jr_component .jr_right {
+    float: left;
+    width: 27%;
+    margin-left: 3%;
+}
+
+.jr_component .jr_left {
+    float: left;
+    width: 27%;
+    margin-left: 3%;
+}
+
+.jr_component .jr_right,
+.jr_component .jr_left {
+    float: left;
+}
+
+.jr_component .jr_right .moduletable,
+.jr_component .jr_left .moduletable {
+    float: left;
+    margin: 2;
+    padding: 2%;
+    width: 96%;
+}
+
+.clr {
+    clear: both;
+    float: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Icon 1 */
+
+.animated-icon1 {
+    width: 30px;
+    height: 20px;
+    position: relative;
+    margin: 0px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+
+.animated-icon1 span {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+}
+
+.animated-icon1 span {
+    background: #fff;
+}
+
+.animated-icon1 span:nth-child(1) {
+    top: 0px;
+}
+
+.animated-icon1 span:nth-child(2) {
+    top: 10px;
+}
+
+.animated-icon1 span:nth-child(3) {
+    top: 20px;
+}
+
+.animated-icon1.open span:nth-child(1) {
+    top: 11px;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+
+.animated-icon1.open span:nth-child(2) {
+    opacity: 0;
+    left: -60px;
+}
+
+.animated-icon1.open span:nth-child(3) {
+    top: 11px;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}
+
+/* Icon 3*/
+
+
+
+/* Icon 4 */
+
+
+/*
+     FILE ARCHIVED ON 07:58:50 Mar 27, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 09:09:53 Mar 27, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots.policy: 1.611
+  captures_list: 274.17
+  RedisCDXSource: 51.304
+  exclusion.robots: 1.639
+  esindex: 0.02
+  LoadShardBlock: 190.398 (3)
+  CDXLines.iter: 23.811 (3)
+  PetaboxLoader3.datanode: 180.858 (4)
+  load_resource: 901.976
+*/

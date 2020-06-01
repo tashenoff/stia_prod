@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Наше меню</title>
+    {% include 'templates/head.html' %}
+</head>
+<body>
+
+<div class="wrapper-for-modal" id="example">
+    <div class="shadow-wrapper" id="shadow">
+        <div class="main">
+            <section id="home">
+                {% include 'templates/banner.html' %}
+            </section>
+
+            <section>
+                {% include 'templates/menu.html' %}
+            </section>
+            <section id="contacs">
+                {% include 'templates/footer.html' %}
+            </section>
+        </div>
+
+    </div>
+</div>
+</body>
+
+</html>
